@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    .hero__title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .about__flex {
+        flex-wrap: wrap;
+    }
+    .about__content {
+        max-width:none;
+        margin-bottom: 40px;
+    }
+    .about__cards {
+        max-width: 100%;
+    }
+    .about__card {
+        width: 33.333333%;
+    }                                   
+    .services__content{
+        flex-direction: column;
+    }
+    .services__title {
+        margin-bottom: 96px;
+        text-align: center;
+    }
+    
+}
